@@ -1,0 +1,8 @@
+@use "setting.scss";
+@use "elements.scss";
+@use "components.scss";
+
+body {
+    background-color: var(--test-background-color);
+    color: var(--test-text-color);
+}
