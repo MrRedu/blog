@@ -3,7 +3,7 @@ Es una arquitectura de trabajo que se basa en un triángulo invertido, dividiend
 
 Estandariza las mejores prácticas para una forma de trabajar que facilita el Desarrollo Web con hojas de estilo CSS y que facilita su crecimiento y adaptabilidad a medio y largo plazo,
 
-((( IMAGEN )))
+![image](https://user-images.githubusercontent.com/73679190/236115111-b060ee9d-b6e9-46b2-b662-053f07fa872f.png)
 
 En el lado izquierdo, se muestra la estructura aconsejable con los nombres de las carpetas: Settings, Tools, Generic, Elements, Objects, Components y Utilities. El triángulo representa el alcance y características del código CSS que iría en cada una de esas carpetas, prestando atención a criterios como Magnitud, Especificidad y Claridad.
 
@@ -40,4 +40,4 @@ La parte centrar del triángulo tiene las tres características que dispone el c
 
 
 
-<!-- TODO: Agregar imagen y vulgarizar el cotenido -->
+<!-- TODO: Vulgarizar el cotenido -->
