@@ -1,0 +1,33 @@
+@use "../setting.scss" as *;
+
+.outstanding-blog.one {
+    background-color: transparent;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    justify-content: end;
+}
+
+.outstanding-big-title {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: 40px;
+    text-shadow: 1px 1px 10px black;
+    color: rgb(99, 31, 31);
+    @include text-2xl;
+
+    & span {
+        background-color: red;
+        padding: 6px;
+        @include text-sm;
+    }
+}
+
+.image {
+    
+    width: 80%;
+    border-radius: 10px;
+}

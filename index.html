@@ -5,13 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Mini-reset -->
     <link rel="stylesheet" href="src/styles/minireset.min.css">
+    <!-- Styles -->
     <link rel="stylesheet" href="src/styles/main.scss">
+    
+    <!-- Font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <title>Document</title>
+
+    <!-- Title + Favicon -->
+    <title>Blog</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
 </head>
 <body>
-    <h1>Texto de prueba</h1>
+
+    <header class="principal-header">
+        <ul class="ul-principal-header">
+            <li><a href="#" class="principal-header-hyperlink" target="_blank">Programación</a></li>
+            <li><a href="#" class="principal-header-hyperlink" target="_blank">Tips</a></li>
+            <li><a href="#" target="_blank"><img src="src/images/shev-shelio.png" width="100" class="icon-principal-header" alt="CAMBIAR IMAGEN"></a></li>
+            <li><a href="#" class="principal-header-hyperlink" target="_blank">Diseño</a></li>
+            <li><a href="#" class="principal-header-hyperlink" target="_blank">SEO</a></li>
+        </ul>
+    </header>
+    <div class="secondary-header">
+        <h1 class="primary-title">WebDesinger Department</h1>
+        <h2 class="secondary-title">Diseños de páginas web</h2>
+    </div>
+
+    <main>
+        <div class="outstanding-blogs">
+            <article class="outstanding-blog one">
+                <header class="outstanding-big-title">
+                    <h2 class="header">UI cheat sheet: Spacing friendships</h2>
+                    <div class="tags">
+                        <span>Diseño</span>
+                        <span>Espaciado</span>
+                    </div>
+                </header>
+                    <img src="/src/images/line-spacing.webp" class="image" alt="">
+            </article>
+            <article class="outstanding-blog two">a</article>
+            <article class="outstanding-blog three">a</article>
+            <article class="outstanding-blog four">a</article>
+        </div>
+    </main>
+
+
+
 </body>
 </html>

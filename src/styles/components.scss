@@ -1,6 +1,9 @@
 // Acá llamaremos a todos los componentes
 
-@use "components/uncomponente-test.scss";
+@use "components/heading.scss";
+@use "components/secondary-header.scss";
+@use "components/outstanding-blogs.scss";
+@use "components/first-outstanding-blog.scss";
 
 // Atomic desing 
 // 1. https://bradfrost.com/blog/post/atomic-web-design/
