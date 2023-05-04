@@ -38,6 +38,12 @@ La parte centrar del triángulo tiene las tres características que dispone el c
 - Claridad. Si bajamos en la lista de carpetas tendremos más claridad sobre dónde se usan los estilos.
 - Especificidad. Obtendremos una mayor especificidad del código a medida que bajamos en la lista de carpetas, por lo tanto deberá ser mayor la fuerza del selector y por tanto sus propiedades de estilo.
 
+<hr>
 
+## Aclaración:
+Esto no es más que un copy/paste de la página y el vídeo que están más abajo. El único fin es tener una guía más cercana para completar el proyecto aplicando esta arquitectura. Ninguna imagen es de mi propiedad.
+## Webgrafía
+- [ITCSS](https://www.arsys.es/blog/itcss-mejores-practicas-css)
+- [Vídeo](https://www.youtube.com/watch?v=jTCTpQFi-Wo)
 
 <!-- TODO: Vulgarizar el cotenido -->
