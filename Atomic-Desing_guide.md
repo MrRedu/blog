@@ -1,6 +1,7 @@
 # **Atomic Desing**
 
 ## **⚛️ Los 5 niveles del Atomic Design ⚛️**
+![image](https://user-images.githubusercontent.com/73679190/236111663-e53c9e72-5ee4-43ea-b808-21411379dac3.png)
 
 - ### Nivel 1: **Átomos**
 
@@ -15,6 +16,8 @@ Ejemplos:
 
 Cada uno de ellos, tiene sus propias variaciones que representan estados: seleccionados, con foco, deshabilitados, hover, etc.
 
+![image](https://user-images.githubusercontent.com/73679190/236111711-bee75020-a3cc-485e-91cb-8e19c5d14094.png)
+
 - ### Nivel 2: **Moléculas**
 
 Una molécula es una unión de dos o más átomos.
@@ -25,6 +28,8 @@ Ejemplos:
 1. Un campo de formulario con un botón de enviar y un label <br>
 2. Un rectángulo con un avatar, nombre y ubicación del usuario (es decir, avatar con texto en un área determinada) <br>
 3. Un icono junto con un texto que ocupa una área determinada.
+
+![image](https://user-images.githubusercontent.com/73679190/236111766-63545367-fa57-4cf1-b2e0-b5b9bddcb09b.png)
 
 - ### Nivel 3: **Organismos**
 
@@ -37,6 +42,8 @@ En este sentido, podríamos considerar un organismo una unión de moléculas.
 Ejemplos:
 1. Cuando juntamos los rectángulos con el avatar y los nombres
 2. Cuando unimos los iconos y texto para crear una navegación de una aplicación
+
+![image](https://user-images.githubusercontent.com/73679190/236111785-56ba154c-f191-48cc-9e30-83bc50f8bfd8.png)
 
 - ### Nivel 4: **Plantillas**
 
@@ -70,5 +77,7 @@ Las ventajas del Atomic Design son claras:
 
 <hr>
 
+## Aclaración:
+Esto no es más que un copy/paste de la página que está más abajo. El único fin es tener una guía más cercana para completar el proyecto aplicando esta metodología. Ninguna imagen es de mi propiedad.
 ## Webgrafía
 - [Atomic Desing](https://www.uifrommars.com/atomic-design-ventajas/)
