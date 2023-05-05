@@ -5,24 +5,14 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-
-    width: 100%;
-    min-height: 320px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    gap: 20px;
 }
 
+// No sé a donde mover esto
 .primary-title {
     font-size: 5.5rem;
-    line-height: 1;
-    font-weight: 1000;
+    font-weight: 900;
 }
 .secondary-title {
     font-size: 2.25rem;
-    line-height: 2.5rem;
     font-weight: 400;
 }

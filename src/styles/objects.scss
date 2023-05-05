@@ -1,0 +1,33 @@
+// Principal-header
+.principal-list-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+// Position ICON
+.icon-principal-header {
+    width: 84px;
+    position: relative;
+    bottom: -25px;
+    border-radius: 50%;
+    border: 3px solid var(--color-neutral-700);
+    // Agregar gradient
+}
+
+// Secondary-header
+.secondary-header {
+    width: 100%;
+    height: 320px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
