@@ -1,9 +1,7 @@
 @use "setting.scss";
+@use "tools.scss";
+@use "generic.scss";
 @use "elements.scss";
+@use "objects.scss";
 @use "components.scss";
 
-body {
-    background-color: var(--color-neutral-800);
-    color: var(--color-neutral-100);
-    font-family: Inter, sans-serif;
-}

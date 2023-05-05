@@ -1,9 +1,5 @@
 // Acá llamaremos a todos los componentes
 
-@use "components/heading.scss";
-@use "components/secondary-header.scss";
-@use "components/outstanding-blogs.scss";
-@use "components/first-outstanding-blog.scss";
 
 // Atomic desing 
 // 1. https://bradfrost.com/blog/post/atomic-web-design/
@@ -13,6 +9,17 @@
 
 
 // Molecules
+@use "components/first-outstanding-blog.scss";
 
 
 // Organisms
+@use "components/principal-header.scss";
+@use "components/secondary-header.scss";
+
+@use "components/principal-blogs.scss";
+@use "components/secondary-blogs.scss";
+
+@use "components/popular-blogs.scss";
+
+@use "components/principal-footer.scss";
+@use "components/secondary-footer.scss";

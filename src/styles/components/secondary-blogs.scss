@@ -1,0 +1,30 @@
+.secondary-blogs {
+    background-color: rgb(90, 28, 28);
+
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+
+    padding: 50px;
+}
+
+.item {
+    min-height: 220px;
+    max-height: 340px;
+    border: 1px dashed rgb(110, 110, 0);
+    transition: transform 0.5s;
+    display: flex;
+    padding: 24px;
+
+
+    &:hover {
+        transform: scale(1.1);
+        transition: all 0.5s;
+        background-color: red;
+    }
+}
+
+.image {
+    border-radius: 10px;
+}
