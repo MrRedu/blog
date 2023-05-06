@@ -1,5 +1,5 @@
 # Blog
-### Primera práctica del Bootcamp [Undefined Academy](https://undefinedshell.notion.site/Base-de-conocimientos-bee4ebe13aa94006a6ad5e3b9d501720)
+### Primera práctica del [Bootcamp Undefined Academy](https://undefinedshell.notion.site/Base-de-conocimientos-bee4ebe13aa94006a6ad5e3b9d501720)
 
 <br>
 
@@ -14,13 +14,7 @@
 
 
 ## Metodologías/modelos de arquitecturas utilizadas para la estructuración del proyecto:
-- ### Metodología **Atomic Desing**
-###### Más información
-1. [Atomic Design: qué es y qué ventajas tiene](https://www.uifrommars.com/atomic-design-ventajas/)
-2. 
-
-- ### Modelo de arquitectura [**ITCSS**]
-
-###### Más información
-1. [Qué es ITCSS y cuáles son las bases de esta propuesta arquitectónica para el desarrollo del código CSS.](https://desarrolloweb.com/articulos/itcss-que-es-bases.html#:~:text=ITCSS%20es%20una%20propuesta%20para,necesidades%20comunes%20de%20los%20proyectos.)
-2. 
+- ### Metodologías:
+1. [Atomic Design](https://github.com/MrRedu/blog/blob/main/developer_guides/Atomic-Desing_guide.md#atomic-desing)
+- ## Arquitecturas:
+2. [ITCSS](https://github.com/MrRedu/blog/blob/main/developer_guides/ITCSS_guide.md)
