@@ -31,3 +31,21 @@
     gap: 10px;
 }
 
+
+// Principal blogs
+.principal-blogs {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 3px;
+}
+
+.article-blog {
+    display: flex;
+    gap: 12px;
+    padding: 30px;
+    max-height: 300px;
+
+    &:nth-child(2n + 1) .article-content{
+        order: 2;
+    }
+}

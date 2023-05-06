@@ -10,13 +10,16 @@
 
 // Molecules
 @use "components/first-outstanding-blog.scss";
-
+@use "components/cards-principal-blogs--article-content.scss";
+@use "components/cards-principal-blogs--article-image.scss";
 
 // Organisms
 @use "components/principal-header.scss";
 @use "components/secondary-header.scss";
 
 @use "components/principal-blogs.scss";
+@use "components/cards-principal-blogs.scss";
+
 @use "components/secondary-blogs.scss";
 
 @use "components/popular-blogs.scss";

@@ -1,30 +1,66 @@
+@use "../setting.scss";
 .secondary-blogs {
-    background-color: rgb(90, 28, 28);
+    background: rgb(202,138,4);
+    background: linear-gradient(90deg, rgba(202,138,4,1) 25%, rgba(232,50,50,0.865983893557423) 56%);
 
 
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
 
     padding: 50px;
 }
 
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+    .secondary-blogs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 1200px) {
+    .secondary-blogs {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    // .item {
+        
+    // }
+}
+
 .item {
-    min-height: 220px;
-    max-height: 340px;
-    border: 1px dashed rgb(110, 110, 0);
-    transition: transform 0.5s;
     display: flex;
+    gap: 12px;
     padding: 24px;
 
+    background-color: var(--color-neutral-900);
+    box-shadow: 5px 5px 10px black;
 
+    min-height: 220px;
+    max-height: 340px;
+
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        rgb(228,161,42), 
+        rgb(190, 142, 36),
+        rgb(195,70,49),
+        rgb(190, 142, 36),
+        rgb(228,161,42)
+      ) 10 10%
+    ;
+
+    transition: transform 0.5s;
     &:hover {
         transform: scale(1.1);
         transition: all 0.5s;
-        background-color: red;
+        background-color: var(--color-neutral-800);
     }
 }
 
 .image {
     border-radius: 10px;
 }
+
