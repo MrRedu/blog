@@ -16,5 +16,5 @@
 ## Metodologías/modelos de arquitecturas utilizadas para la estructuración del proyecto:
 - ### Metodologías:
 1. [Atomic Design](https://github.com/MrRedu/blog/blob/main/developer_guides/Atomic-Desing_guide.md#atomic-desing)
-## Arquitecturas:
+- ### Arquitecturas:
 2. [ITCSS](https://github.com/MrRedu/blog/blob/main/developer_guides/ITCSS_guide.md)
