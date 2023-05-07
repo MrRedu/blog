@@ -1,8 +1,15 @@
+@use "setting.scss" as *;
+
 // Principal-header
+// .nav {
+//     // width: 100%;
+//     // height: auto;
+//     // display: flex;
+// }
 .list-header {
     display: flex;
     flex-direction: row;
-    width: 100%;
+        // width: 100%;
     height: 50px;
 
     justify-content: center;
@@ -11,12 +18,26 @@
 }
 // Position ICON
 .icon-header {
-    width: 84px;
+    width: 86px;
+    
     position: relative;
     bottom: -25px;
+
+    border: 4px solid transparent;
     border-radius: 50%;
-    border: 3px solid var(--color-neutral-700);
-    // Agregar gradient
+    background: 
+        linear-gradient(white, white) padding-box,
+        linear-gradient(to right,
+        var(--color-uno),
+        var(--color-dos),
+        var(--color-tres),
+        var(--color-cuatro)) border-box;
+    box-shadow: 0px 0px 5px var(--color-cinco);
+
+    &:hover {
+        transform: rotate(360deg);
+        transition: all 0.6s;
+    }
 }
 
 // Secondary-header
