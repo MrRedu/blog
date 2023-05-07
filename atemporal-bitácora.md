@@ -6,6 +6,7 @@ El fin de este archivo, es llevar un registro de lo que se ha hecho en el proyec
 - [Día 1](https://github.com/MrRedu/blog/blob/main/atemporal-bit%C3%A1cora.md#d%C3%ADa-1-20230503-4h-avg)
 - [Día 2](https://github.com/MrRedu/blog/blob/main/atemporal-bit%C3%A1cora.md#d%C3%ADa-2-20230504-4h-avg)
 - [Día 3](https://github.com/MrRedu/blog/blob/main/atemporal-bit%C3%A1cora.md#d%C3%ADa-3-20230505-2h-avg)
+- [Día 4](https://github.com/MrRedu/blog/blob/main/atemporal-bit%C3%A1cora.md#d%C3%ADa-3-20230506-2h-avg)
 
 
 ### [Día 1] 2023/05/03 (+4h avg)
@@ -40,4 +41,12 @@ El fin de este archivo, es llevar un registro de lo que se ha hecho en el proyec
 ![day3-04](https://user-images.githubusercontent.com/73679190/236591339-933fb3a1-89b9-4d08-b8d4-9851e7f2927e.png)
 ![day3-05](https://user-images.githubusercontent.com/73679190/236591340-1b88066d-5a9c-4db0-ba6c-29c12e13c0a9.png)
 
+### [Día 4] 2023/05/06 (+2h avg)
+- Refactorizamos el código del layout, respecto al GRID
+- No hay gran cambio visual
+- Agregamos algunos colores
+
+#### Relevancia visual
+![day4-01](https://user-images.githubusercontent.com/73679190/236654315-5d05c5c7-31ab-4579-a775-82068134227d.png)
+![day4-02](https://user-images.githubusercontent.com/73679190/236654313-f3a03464-46f4-45e6-89d2-693715273cf1.png)
 
