@@ -1,5 +1,21 @@
 // Mixins
 
+// Investigar como aplicarlo de manera adecuada
+@mixin mobile {
+    @media (min-width: 768px) {
+
+    }
+}
+@mixin tablet {
+    @media (min-width: 992px) {
+        
+    }
+}
+@mixin desktop {
+    @media (min-width: 1200px) {
+        
+    }
+}
 
 
 // Mixins
