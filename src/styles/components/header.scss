@@ -1,16 +1,25 @@
 @use "/src/styles/setting.scss" as *;
 
-.secondary-header {
+.header {
     background-image: url("../images/secondary-header.img.png");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 // No sé a donde mover esto
 .primary-title {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
     font-weight: 900;
+}
+@media (min-width: 768px) {
+    .primary-title {
+        font-size: 5.5rem;
+        font-weight: 900;
+    }
+}
+.primary-title {
+
 }
 .secondary-title {
     font-size: 2.25rem;

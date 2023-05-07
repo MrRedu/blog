@@ -14,8 +14,8 @@
 @use "components/cards-principal-blogs--article-image.scss";
 
 // Organisms
-@use "components/principal-header.scss";
-@use "components/secondary-header.scss";
+@use "components/nav.scss";
+@use "components/header.scss";
 
 @use "components/principal-blogs.scss";
 @use "components/cards-principal-blogs.scss";
@@ -25,4 +25,4 @@
 @use "components/popular-blogs.scss";
 
 @use "components/principal-footer.scss";
-@use "components/secondary-footer.scss";
+@use "components/footer.scss";

@@ -4,22 +4,7 @@
     background-color: var(--color-neutral-900);
 }
 
-@media (min-width: 768px) {
-    .principal-blogs {
-        grid-template-columns: 50% 50%;   
-    }
-}
-// @media (min-width: 992px) {
-// }
-@media (min-width: 1200px) {
-    .principal-blogs {
-        grid-template-columns: 33% 33% auto;
-    }
-    .paragraphs {
-        max-height: 100%;
-        overflow: hidden;
-    }
-}
+
 
 // Principal blogs
 .article-blog {
