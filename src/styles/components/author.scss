@@ -1,0 +1,15 @@
+.author {
+    color: var(--color-yellow-400);
+    font-weight: bold;
+
+    &:hover {
+        color: var(--color-yellow-600);
+
+        text-decoration: underline;
+    }
+    &:focus {
+        color: yellow;
+        text-decoration: underline;
+
+    }
+}

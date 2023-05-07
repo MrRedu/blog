@@ -4,3 +4,14 @@
     background-color: var(--color-neutral-900);
     border-bottom: 2px solid var(--color-neutral-700);
 }
+
+.nav a {
+    color: var(--color-yellow-400);
+    text-transform: uppercase;
+    font-weight: bold;
+
+    &:hover {
+        color: var(--color-yellow-600);
+        text-shadow: 0 0 4px rgb(0, 0, 0);
+    }
+}
