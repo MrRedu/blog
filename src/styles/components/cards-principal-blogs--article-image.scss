@@ -1,3 +1,5 @@
+@use "/src/styles/tools.scss" as *;
+
 .article-image {
     img {
         border-radius: 12px;
@@ -8,16 +10,14 @@
         object-position: center;
     }
 }
-@media (min-width: 768px) {
+@include mobile {
     .article-image {
         width: 100%;
         max-height: 200px;
     }
 }
-// @media (min-width: 768px) {
 
-// }
-@media (min-width: 1200px) {
+@include desktop {
     .article-blog:nth-child(1), .article-blog:nth-child(4) {
         .article-image{
             width: 250%;

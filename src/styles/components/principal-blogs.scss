@@ -1,4 +1,5 @@
-@use "../tools.scss" as *;
+@use "/src/styles/setting.scss" as *;
+@use "/src/styles/tools.scss" as *;
 
 .principal-blogs {
     background-color: var(--color-neutral-900);
@@ -34,15 +35,20 @@
     background-color: var(--color-neutral-800);
     color: var(--color-neutral-300);
 }
+.article-content {
+    height: 100%;
+}
 .paragraphs {
     padding: 8px 0;
-    max-height: 105px;
+    // height: 100%;
     overflow: hidden;
     
     @include paragraph-text;
 }
+
 .footer-content {
     width: 100%;
+    height: auto;
     padding: 2px 0;
 }
 

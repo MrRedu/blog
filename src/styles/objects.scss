@@ -1,5 +1,5 @@
 @use "setting.scss" as *;
-// @use "tools.scss" as *;
+@use "tools.scss" as *;
 
 // Principal-header
 // .nav {
@@ -16,6 +16,15 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
+}
+
+.hyperlink-list-header {
+    display: none;
+}
+@include tablet {
+    .hyperlink-list-header {
+        display: contents;
+    }
 }
 // Position ICON
 .icon-header {
@@ -90,7 +99,7 @@
     }
 }
 
-@media (min-width: 768px) {
+@include mobile {
     .article-blog{
         &:nth-child(1) {
             grid-area: 1 / 1 / 3 / 3;
@@ -106,7 +115,7 @@
         }
     }
 }
-@media (min-width: 1200px) {
+@include desktop {
     .article-blog {
         &:nth-child(1) {
             grid-area: 1 / 1 / 3 / 4;

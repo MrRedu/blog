@@ -1,4 +1,7 @@
-@use "../setting.scss";
+@use "/src/styles/setting.scss" as *;
+@use "/src/styles/tools.scss" as *;
+
+
 .secondary-blogs {
     background: rgb(202,138,4);
     background: linear-gradient(90deg, rgba(202,138,4,1) 25%, rgba(232,50,50,0.865983893557423) 56%);
@@ -11,15 +14,12 @@
     padding: 50px;
 }
 
-@media (min-width: 768px) {
-
-}
-@media (min-width: 992px) {
+@include tablet {
     .secondary-blogs {
         grid-template-columns: repeat(2, 1fr);
     }
 }
-@media (min-width: 1200px) {
+@include desktop {
     .secondary-blogs {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -39,6 +39,7 @@
     background-color: var(--color-neutral-900);
     box-shadow: 5px 5px 10px black;
 
+    width: 100%;
     min-height: 220px;
     max-height: 340px;
 
@@ -63,10 +64,15 @@
 }
 
 .image {
-    width: 200px;
+    width: 50%;
     height: auto; 
     border-radius: 10px;
     object-fit: cover;
     object-position: center;
+}
+.information {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
 }
 

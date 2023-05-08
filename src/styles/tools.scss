@@ -1,19 +1,19 @@
 // Mixins
 
-// Investigar como aplicarlo de manera adecuada
+// Para aplicar, se usa: "@include <mobile/tablet/desktop> { }"
 @mixin mobile {
     @media (min-width: 768px) {
-
+        @content;
     }
 }
 @mixin tablet {
     @media (min-width: 992px) {
-        
+        @content;
     }
 }
 @mixin desktop {
     @media (min-width: 1200px) {
-        
+        @content;
     }
 }
 

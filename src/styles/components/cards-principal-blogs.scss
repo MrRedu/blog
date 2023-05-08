@@ -1,12 +1,14 @@
+@use "/src/styles/tools.scss" as *;
+
 // Blogs principales
 
-@media (min-width: 768px) {
+@include mobile {
     .article-blog {
         flex-direction: column;
-        max-height: 700px;
+        max-height: 470px;
     }
 }
-@media (min-width: 1200px) {
+@include desktop {
     .article-blog:nth-child(1){
         flex-direction: row;
     }
