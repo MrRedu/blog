@@ -13,18 +13,24 @@
 
 .container-popular-author {
     display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+            250px,
+            1fr
+        )
+    );
+    // grid-template-rows: 100% ;
     gap: 20px;
 
-    grid-template-columns: repeat(4, 1fr);
+    // grid-template-columns: repeat(4, 1fr);
 }
-
 .card-popular-author {
     display: flex;
     flex-direction: column;
     // justify-content: flex-start;
     gap: 16px;
     padding: 40px;
-
 
     // background: rgba(202,138,4, 0.2);
     background: linear-gradient(180deg, rgba(202,138,4, 1) 05%, rgba(232,50,50, 0.865983893557423) 100%);

@@ -5,6 +5,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0;
 }
 
 // No sé a donde mover esto
@@ -12,6 +16,60 @@
     font-size: 2.5rem;
     font-weight: 900;
 }
+
+.span-title {
+    transition: color 1.2s;
+    cursor: default;
+    color: var(--color-neutral-200);
+    text-shadow: 0 0 10px black;
+
+    &:nth-child(1):hover {
+        transition: color .002s;
+        color:  rgb(142,25,33) ;
+    }
+    &:nth-child(2):hover{
+        transition: color .002s;
+        color:  rgb(205,38,43);    
+    }
+    &:nth-child(3):hover{
+        transition: color .002s;
+        color: rgb(206,82,46);    
+    }
+    &:nth-child(4):hover{
+        transition: color .002s;
+        color: rgb(219,88,44);    
+    }
+    &:nth-child(5):hover{
+        transition: color .002s;
+        color: rgb(228,161,50);    
+    }
+    &:nth-child(6):hover{
+        transition: color .002s;
+        color: rgb(173,190,184);    
+    }
+    &:nth-child(7):hover{
+        transition: color .002s;
+        color:  rgb(70,100,133);    
+    }
+    &:nth-child(8):hover{
+        transition: color .002s;
+        color: rgb(70,100,133);    
+    }
+    &:nth-child(9):hover{
+        transition: color .002s;
+        color: rgb(43,61,86);    
+    }
+    &:nth-child(10):hover{
+        transition: color .002s;
+        color: rgb(34,52,73);    
+    }
+    &:nth-child(11):hover{
+        transition: color .002s;
+        color: rgb(19,21,32);    
+    }
+}
+
+
 @media (min-width: 768px) {
     .primary-title {
         font-size: 5.5rem;
@@ -23,3 +81,5 @@
     font-size: 2.25rem;
     font-weight: 400;
 }
+
+
