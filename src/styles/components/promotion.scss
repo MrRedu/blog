@@ -1,3 +1,5 @@
+@use "src/styles/tools.scss" as *;
+
 .promotion {
     padding: 0 40px;
 }
@@ -15,21 +17,33 @@
 .form-promotion {
     display: flex;
     flex-direction: column;
+    gap: 12px;
 }
 
 .form {
     display: flex;
+    flex-direction: column;
     gap: 10px;
     input[type="email"] {
         padding: 18px;
         border-radius: 10px;
-        border: none;
-        width: 50%;
+        border: 2px solid transparent;
+        outline: 2px solid transparent;
+        width: 100%;
+
+        color: var(--color-yellow-600);
+        font-weight: bolder;
 
         background-color: rgba(255, 255, 255, 0.1);
 
         &:focus {
-            outline: 2px solid var(--color-yellow-700);
+            outline: none;
+
+            border-top: 2px solid var(--color-yellow-700);
+            border-right: 2px solid rgb(53, 77, 102);
+            border-bottom: 2px solid rgb(53, 77, 102);
+            border-left: 2px solid var(--color-yellow-700);
+
             box-shadow: 2px 2px 5px black;
         }
     }
@@ -49,5 +63,16 @@
         text-transform: uppercase;
         font-weight: bold;
         color: #d1d1d1;
+    }
+}
+
+@include tablet {
+    .form {
+        display: flex;
+        flex-direction: row;
+
+        input[type="email"] {
+            width: 50%;
+        }
     }
 }
