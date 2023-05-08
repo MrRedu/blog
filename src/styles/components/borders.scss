@@ -1,0 +1,27 @@
+// Borde para las primera cuatro cards, que son los blogs destacados
+.border-gradient-principal {
+    border-width: 4px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        rgb(228,161,42), 
+        rgb(195,70,49),
+        rgb(68,99,132),
+        rgb(23,25,38)
+      ) 10 10%;
+}
+
+// Borde para las cards de los blog-secondary y también para los autores
+.border-gradient-secondary {
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        rgb(228,161,42), 
+        rgb(190, 142, 36),
+        rgb(195,70,49),
+        rgb(190, 142, 36),
+        rgb(228,161,42)
+      ) 10 10%
+    ;
+}

@@ -1,0 +1,44 @@
+@use "src/styles/setting.scss" as *;
+@use "src/styles/tools.scss" as *;
+
+.popular-author {
+    background-color: var(--color-neutral-900);
+
+    padding: 40px;
+}
+.popular-author-header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container-popular-author {
+    display: grid;
+    gap: 20px;
+
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card-popular-author {
+    display: flex;
+    flex-direction: column;
+    // justify-content: flex-start;
+    gap: 16px;
+    padding: 40px;
+
+
+    background: rgba(202,138,4, 0.2);
+    background: linear-gradient(180deg, rgba(202,138,4, 1) 05%, rgba(232,50,50, 0.865983893557423) 100%);
+}
+
+.author-information {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 4px;
+}
+
+.image-popular-author {
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px var(--color-neutral-700), 0 0 10px var(--color-neutral-950);
+}
+

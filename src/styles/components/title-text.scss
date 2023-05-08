@@ -1,0 +1,9 @@
+@use "/src/styles/setting.scss" as *;
+@use "/src/styles/tools.scss" as *;
+
+.title-text {
+    @include title-cards;
+    color: var(--color-yellow-400);
+    text-shadow: 2px 2px 2px rgb(216,88,43);
+    padding: 8px 0;
+}

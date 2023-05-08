@@ -8,33 +8,13 @@
 
 
 // Principal blogs
-.article-blog {
-    border-width: 4px;
-    border-style: solid;
-    border-image: 
-      linear-gradient(
-        rgb(228,161,42), 
-        rgb(195,70,49),
-        rgb(68,99,132),
-        rgb(23,25,38)
-      ) 10 10%;
-}
+// .article-blog {
+
+// }
+
+// Dentro de las cards
 
 
-
-// Dentro de las cars
-.article-title-text {
-    @include title-cards;
-    color: var(--color-yellow-400);
-    text-shadow: 2px 2px 2px rgb(216,88,43);
-    padding: 8px 0;
-}
-.tag {
-    padding: 4px 4px;
-    font-weight: 200;
-    background-color: var(--color-neutral-800);
-    color: var(--color-neutral-300);
-}
 .article-content {
     height: 100%;
 }

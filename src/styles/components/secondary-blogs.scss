@@ -43,18 +43,6 @@
     min-height: 220px;
     max-height: 340px;
 
-    border-width: 3px;
-    border-style: solid;
-    border-image: 
-      linear-gradient(
-        rgb(228,161,42), 
-        rgb(190, 142, 36),
-        rgb(195,70,49),
-        rgb(190, 142, 36),
-        rgb(228,161,42)
-      ) 10 10%
-    ;
-
     transition: transform 0.5s;
     &:hover {
         transform: scale(1.1);

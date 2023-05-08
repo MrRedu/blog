@@ -1,0 +1,9 @@
+@use "src/styles/setting.scss";
+
+.tag {
+    padding: 4px 4px;
+    font-weight: 200;
+    background-color: var(--color-neutral-800);
+    color: var(--color-neutral-300);
+    line-height: 2;
+}
