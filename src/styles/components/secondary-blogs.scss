@@ -40,12 +40,12 @@
     box-shadow: 5px 5px 10px black;
 
     width: 100%;
-    min-height: 220px;
-    max-height: 340px;
+    min-height: 300px;
+    max-height: 360px;
 
     transition: transform 0.5s;
     &:hover {
-        transform: scale(1.1);
+        transform: scale(1.04);
         transition: all 0.5s;
         background-color: var(--color-neutral-800);
     }
@@ -58,9 +58,11 @@
     object-fit: cover;
     object-position: center;
 }
-.information {
+.container-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
     height: auto;
     overflow: hidden;
 }
-

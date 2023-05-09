@@ -18,17 +18,19 @@
 .article-content {
     height: 100%;
 }
-.paragraphs {
-    padding: 8px 0;
-    overflow: hidden;
-    
+.paragraph {
     @include paragraph-text;
+    padding: 8px 0;
 }
+.paragraphs {
+    height: 95px; // ¿QUÉ PASA ACÁ? AYUDAAAA
+    // height: auto;
+    overflow: hidden;
+}
+
 
 .footer-content {
     width: 100%;
     height: auto;
     padding: 2px 0;
 }
-
-
