@@ -65,7 +65,6 @@
     display: flex;
     gap: 12px;
     padding: 30px;
-    max-height: 300px; // pendiente
 
     &:nth-child(2n + 1) .article-content{
         order: 2;
