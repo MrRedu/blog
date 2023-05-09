@@ -7,6 +7,7 @@ El fin de este archivo, es llevar un registro de lo que se ha hecho en el proyec
 - [Día 2](https://github.com/MrRedu/blog/blob/main/atemporal-bit%C3%A1cora.md#d%C3%ADa-2-20230504-4h-avg)
 - [Día 3](https://github.com/MrRedu/blog/blob/main/atemporal-bit%C3%A1cora.md#d%C3%ADa-3-20230505-2h-avg)
 - [Día 4](https://github.com/MrRedu/blog/blob/main/atemporal-bit%C3%A1cora.md#d%C3%ADa-4-20230506-2h-avg)
+- [Día 5]()
 
 
 ### [Día 1] 2023/05/03 (+4h avg)
@@ -49,4 +50,25 @@ El fin de este archivo, es llevar un registro de lo que se ha hecho en el proyec
 #### Relevancia visual
 ![day4-01](https://user-images.githubusercontent.com/73679190/236654315-5d05c5c7-31ab-4579-a775-82068134227d.png)
 ![day4-02](https://user-images.githubusercontent.com/73679190/236654313-f3a03464-46f4-45e6-89d2-693715273cf1.png)
+
+### [Día 5] 2023/05/08 (+5h avg)
+- Tenemos 3 GRID diferentes, y no sabemos cuál es "más correcto" o si siquiera existe tal cosa
+- Completamos; autores destacados, promoción y footer. Al menos la primera versión
+- Agregamos efecto visual al header
+- Mejor digamos lo que falta:
+  - Hacer el nav para mobile
+  - Reparar los párrafos para que se oculten después de pasar X cantidad de líneas/altura
+  - Renombrar imágenes para mayor orden
+  - Refactorizar muchas veces 😅
+
+#### Relevancia visual
+![day-5-01](https://user-images.githubusercontent.com/73679190/236975890-7eefab1d-e6a2-4949-b503-ca8a687a6ce3.png)
+![day-5-02](https://user-images.githubusercontent.com/73679190/236975894-83415f07-5c93-41c5-a1cb-3b24047ef829.png)
+
+https://user-images.githubusercontent.com/73679190/236976379-e620ab3f-fec8-434b-b82e-189f0d1add4e.mp4
+
+
+
+
+
 
