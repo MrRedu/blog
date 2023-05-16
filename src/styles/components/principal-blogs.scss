@@ -5,8 +5,6 @@
     background-color: var(--color-neutral-900);
 }
 
-
-
 // Principal blogs
 // .article-blog {
 
@@ -14,9 +12,12 @@
 
 // Dentro de las cards
 
+// .article-content {
 
-.article-content {
-    height: 100%;
+// }
+.paragraphs-with-scroll {
+    max-height: 105px;
+    overflow: auto;
 }
 .paragraph {
     @include paragraph-text;

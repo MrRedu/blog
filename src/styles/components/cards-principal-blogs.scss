@@ -5,7 +5,6 @@
 @include mobile {
     .article-blog {
         flex-direction: column;
-        min-height: 300px;
     }
 }
 @include desktop {

@@ -63,12 +63,19 @@
 
 .article-blog {
     display: flex;
+    flex-direction: column;
     gap: 12px;
     padding: 30px;
+    height: auto;
 
-    &:nth-child(2n + 1) .article-content{
+    
+    .article-content{
         order: 2;
     }
+
+    // &:nth-child(2n + 1) .article-content{
+    //     order: 2;
+    // }
     
 
     &:nth-child(1) {
