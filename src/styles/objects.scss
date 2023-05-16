@@ -1,7 +1,8 @@
 @use "setting.scss" as *;
 @use "tools.scss" as *;
 
-.list-header {
+// el nav
+.list-nav {
     display: flex;
     flex-direction: row;
         // width: 100%;
@@ -12,12 +13,12 @@
     gap: 50px;
 }
 
-.hyperlink-list-header {
+.hyperlink-list-nav {
     display: none;
 }
 
 @include tablet {
-    .hyperlink-list-header {
+    .hyperlink-list-nav {
         display: contents;
     }
 }
@@ -37,7 +38,7 @@
     }
 }
 
-// Secondary-header
+// Header
 .header {
     width: 100%;
     height: 320px;
@@ -123,4 +124,85 @@
             grid-area: 3 / 2 / 5 / 5;
         }
     }
+}
+
+
+
+.secondary-blogs {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+
+    padding: 50px;
+}
+
+.item {
+    display: flex;
+    gap: 12px;
+    padding: 24px;
+
+    width: 100%;
+    // min-height: 300px;
+    // max-height: 360px;
+}
+
+.popular-author {
+    padding: 40px;
+}
+.popular-author-header {
+    display: flex;
+    justify-content: flex-start;
+}
+.container-popular-author {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+            250px,
+            1fr
+        )
+    );
+    gap: 20px;
+}
+.card-popular-author {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 40px;
+}
+
+.promotion {
+    padding: 0 40px 40px;
+}
+
+.promotion-container {
+    width: 100%;
+    height: auto;
+    padding: 40px;
+}
+
+.form-promotion {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 20px 40px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
 }

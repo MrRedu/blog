@@ -1,19 +1,14 @@
 // Acá llamaremos a todos los componentes
 
-
-// Atomic desing 
-// 1. https://bradfrost.com/blog/post/atomic-web-design/
-// 2. https://atomicdesign.bradfrost.com/chapter-2/
-
 // Atoms
-@use "components/icon-header.scss";
 @use "components/title-text.scss";
 @use "components/borders.scss";
 @use "components/tags.scss";
 @use "components/author.scss";
-
+@use "components/paragraphs.scss";
 
 // Molecules
+@use "components/cards-principal-blogs.scss";
 @use "components/cards-principal-blogs--article-content.scss";
 @use "components/cards-principal-blogs--article-image.scss";
 
@@ -22,7 +17,6 @@
 @use "components/header.scss";
 
 @use "components/principal-blogs.scss";
-@use "components/cards-principal-blogs.scss";
 
 @use "components/secondary-blogs.scss";
 

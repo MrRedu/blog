@@ -1,0 +1,11 @@
+@use "/src/styles/tools.scss" as *;
+
+// movier esto a algún lugar, jajaja
+.paragraphs-with-scroll {
+    max-height: 105px;
+    overflow: auto;
+}
+.paragraph {
+    @include paragraph-text;
+    padding: 8px 0;
+}

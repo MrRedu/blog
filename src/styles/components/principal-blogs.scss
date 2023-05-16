@@ -1,29 +1,10 @@
 @use "/src/styles/setting.scss" as *;
-@use "/src/styles/tools.scss" as *;
 
 .principal-blogs {
     background-color: var(--color-neutral-900);
 }
 
-// Principal blogs
-// .article-blog {
-
-// }
-
-// Dentro de las cards
-
-// .article-content {
-
-// }
-.paragraphs-with-scroll {
-    max-height: 105px;
-    overflow: auto;
-}
-.paragraph {
-    @include paragraph-text;
-    padding: 8px 0;
-}
-
+// el footer de cada blog de los principales
 .footer-content {
     width: 100%;
     height: auto;

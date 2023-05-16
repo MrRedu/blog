@@ -1,29 +1,13 @@
 @use "src/styles/tools.scss" as *;
 
-.promotion {
-    padding: 0 40px 40px;
-}
 
 .promotion-container {
     background-color: var(--color-neutral-800);
 
-    width: 100%;
-    height: auto;
-    padding: 40px;
-
     background-image: linear-gradient(to bottom, #171717, #1a1a1a, #1c1c1c, #1f1f1f, #222222, #222222, #222222, #222222, #1f1f1f, #1c1c1c, #1a1a1a, #171717);
 }
 
-.form-promotion {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
 .form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
     input[type="email"] {
         padding: 18px;
         border-radius: 10px;
@@ -65,7 +49,6 @@
         color: #d1d1d1;
     }
 }
-
 @include tablet {
     .form {
         display: flex;

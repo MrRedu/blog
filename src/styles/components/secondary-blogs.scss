@@ -5,13 +5,6 @@
 .secondary-blogs {
     background: rgb(202,138,4);
     background: linear-gradient(90deg, rgba(202,138,4,1) 25%, rgba(232,50,50,0.865983893557423) 56%);
-
-
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: auto;
-
-    padding: 50px;
 }
 
 @include tablet {
@@ -23,29 +16,22 @@
     .secondary-blogs {
         grid-template-columns: repeat(3, 1fr);
     }
-    // .item {
-        
-    // }
 }
 
 
 .item {
-    display: flex;
-    gap: 12px;
-    padding: 24px;
-
     background-color: var(--color-neutral-900);
     box-shadow: 5px 5px 10px black;
 
-    width: 100%;
-    // min-height: 300px;
-    // max-height: 360px;
-
     transition: transform 0.5s;
-    &:hover {
-        transform: scale(1.04);
-        transition: all 0.5s;
-        background-color: var(--color-neutral-800);
+}
+@include desktop {
+    .item {
+        &:hover {
+            transform: scale(1.04);
+            transition: all 0.5s;
+            background-color: var(--color-neutral-800);
+        } 
     }
 }
 
