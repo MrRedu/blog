@@ -8,7 +8,7 @@ El fin de este archivo, es llevar un registro de lo que se ha hecho en el proyec
 - [Día 3](https://github.com/MrRedu/blog/blob/main/atemporal-bit%C3%A1cora.md#d%C3%ADa-3-20230505-2h-avg)
 - [Día 4](https://github.com/MrRedu/blog/blob/main/atemporal-bit%C3%A1cora.md#d%C3%ADa-4-20230506-2h-avg)
 - [Día 5](https://github.com/MrRedu/blog/blob/main/atemporal-bit%C3%A1cora.md#d%C3%ADa-5-20230508-5h-avg)
-- [Día 6]()
+- [Día 6](https://github.com/MrRedu/blog/blob/main/atemporal-bit%C3%A1cora.md#d%C3%ADa-6-20230515-5h-avg)
 
 
 ### [Día 1] 2023/05/03 (+4h avg)
