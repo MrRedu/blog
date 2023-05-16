@@ -8,6 +8,7 @@ El fin de este archivo, es llevar un registro de lo que se ha hecho en el proyec
 - [Día 3](https://github.com/MrRedu/blog/blob/main/atemporal-bit%C3%A1cora.md#d%C3%ADa-3-20230505-2h-avg)
 - [Día 4](https://github.com/MrRedu/blog/blob/main/atemporal-bit%C3%A1cora.md#d%C3%ADa-4-20230506-2h-avg)
 - [Día 5](https://github.com/MrRedu/blog/blob/main/atemporal-bit%C3%A1cora.md#d%C3%ADa-5-20230508-5h-avg)
+- [Día 6]()
 
 
 ### [Día 1] 2023/05/03 (+4h avg)
@@ -67,6 +68,18 @@ El fin de este archivo, es llevar un registro de lo que se ha hecho en el proyec
 
 https://user-images.githubusercontent.com/73679190/236976379-e620ab3f-fec8-434b-b82e-189f0d1add4e.mp4
 
+### [Día 6] 2023/05/15 (+5h avg)
+- Refactorizamos
+- Agregamos favicon
+- Mejoramos tanto el mobile, como el layout en todos los breakpoints
+- No hicimos nav de mobile, porque suponemos que el icono es un botón que desplegará el menú y pensamos que será con Js.
+- Tenemos una solución temporal para los párrafos, aunque no es agradable visualmente
+- Desplegamos en Vercel, [Blog](https://blog-preweekfive.vercel.app/)
+
+#### Relevancia visual
+![day6-01](https://github.com/MrRedu/blog/assets/73679190/ce96acb2-c10d-47be-993d-3c164d8bd662)
+![day6-02](https://github.com/MrRedu/blog/assets/73679190/48953b30-6c9f-4366-b95b-2600ae82c38a)
+![day6-03](https://github.com/MrRedu/blog/assets/73679190/53232514-1bcf-4a7a-a231-5e3328be6cf6)
 
 
 
