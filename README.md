@@ -1,7 +1,7 @@
 # Blog
 ### Primera práctica del [Bootcamp Undefined Academy](https://undefinedshell.notion.site/Base-de-conocimientos-bee4ebe13aa94006a6ad5e3b9d501720)
 
-<br>
+### [👉🏼 Clic para ir al proyecto en la web 👈🏼](https://blog-preweekfive.vercel.app/)
 
 ## [¿Cómo abordar un proyecto?](https://github.com/glrodasz/undefined-academy/blob/main/practica-blog/README.md)
 - **Analizar la necesidad del proyecto:** Revisar si el proyecto cumple con las necesidades del usuario, preguntarse quien lo va a usar y cómo lo va a usar.
@@ -11,7 +11,6 @@
 - **Poneser objetivos en pequeñas tareas:** Darle prioridad a las tareas y empezar una a la vez, muy relacionado con el punto 2, pero en un sentido ya más empirico.
 - **Refactorizar poco a poco:** Revisar que patrones ya existen en el proyecto y extraerlos para ir mejorando el código.
 - **Comunicar inconsistencias:** A veces podemos encontrar incosistencias en el código o en el diseño es importante preguntar porque está asi.
-
 
 ## Metodologías/modelos de arquitecturas utilizadas para la estructuración del proyecto:
 - ### Metodologías:
